@@ -2,7 +2,6 @@
 /* eslint-disable no-extend-native */
 /* eslint-disable no-plusplus */
 /**
- *
  * MyMap simular map js
  */
 

@@ -3,8 +3,7 @@
 /* eslint-disable no-extend-native */
 /* eslint-disable no-plusplus */
 /**
- *
- * MyMap simular map js
+ * MySome simular Array.some js
  */
 
 /* eslint-disable-next-line no-multi-assign */
