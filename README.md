@@ -1,6 +1,7 @@
 ## extreme_go_horse_js
 
-> criado com intuito apenas para trinar algo e Estruturas de dados.
+> Criado com intuito apenas para treinar algoritmos e Estruturas de dados.                       
+Designed for training algorithms and data structures only.
 
 #### Get deps :racehorse:
 ```sh
