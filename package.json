@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll --coverage",
     "dev": "node index.js",
     "lint": "./node_modules/.bin/eslint --fix src/**/*.js"
   },
