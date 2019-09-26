@@ -7,9 +7,8 @@
 
 /* eslint-disable-next-line no-multi-assign */
 module.exports = Array.prototype.myMap = function(callback) {
-	const arr = [...this];
 	const nArr = [];
-	if (this.length === 0) return [...this];
+	if (this.length === 0) return [];
 	if (typeof callback !== 'function')
 		return function() {
 			throw new TypeError(
@@ -17,9 +16,9 @@ module.exports = Array.prototype.myMap = function(callback) {
 			);
 		};
 	for (let i = 0; i < this.length; i++) {
-		const a = callback(arr[i], i, this);
-		// if (a !== undefined) return arr;
-		nArr[i] = a;
+		const a = callback(this[i], i, this);
+		if (a !== undefined) nArr[i] = a;
 	}
+	if (nArr.length === 0) return this;
 	return nArr;
 };
