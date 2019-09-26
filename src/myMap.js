@@ -18,9 +18,7 @@ module.exports = Array.prototype.myMap = function(callback) {
 		};
 	for (let i = 0; i < this.length; i++) {
 		const a = callback(arr[i], i, this);
-		if (a === undefined) {
-			return arr;
-		}
+		// if (a !== undefined) return arr;
 		nArr[i] = a;
 	}
 	return nArr;
