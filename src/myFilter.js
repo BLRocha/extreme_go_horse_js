@@ -1,9 +1,9 @@
 
 module.exports = Array.prototype.myFilter = function(filter) {
     if (typeof filter == 'function') {
-        const arr = []
+        const arr = [];
         let acc = 0;
-        this.forEach((condicao, index, array) => {
+        this.forEach((condicao) => {
             if (filter(condicao)) {
                 arr[acc++] = condicao
             }
